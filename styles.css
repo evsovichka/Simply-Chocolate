@@ -1,0 +1,26 @@
+@import "./base.css";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+.logo {
+  font-weight: 700;
+  line-height: 129%;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+}
+
+.first-part-logo {
+  font-style: italic;
+}
+
+.svg {
+  stroke: var(--black);
+}
