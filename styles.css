@@ -24,3 +24,11 @@
 .svg {
   stroke: var(--black);
 }
+
+.first-section {
+  border-radius: 30px;
+  width: 335px;
+  height: 620px;
+  background-image: url(./images/mobile_background.jpg);
+  background-size: 335px 620px;
+}
