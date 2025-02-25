@@ -5,6 +5,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 14px;
+  padding: 20px;
 }
 .logo {
   font-weight: 700;
@@ -31,4 +32,110 @@
   height: 620px;
   background-image: url(./images/mobile_background.jpg);
   background-size: 335px 620px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  justify-content: end;
+  padding: 20px;
+  margin: 0 auto 71px auto;
+}
+
+.first-section-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  color: #fff;
+  max-width: 295px;
+}
+
+.first-section-button {
+  border-radius: 100px;
+  padding: 12px 28px;
+  width: 120px;
+  height: 41px;
+  background-color: var(--orange);
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+}
+
+.first-section-link {
+  border: 1px solid var(--white);
+  border-radius: 100px;
+  padding: 12px 28px;
+  width: 159px;
+  height: 41px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.first-section-button-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+}
+
+.first-section-linkScrollDown {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: -0.03em;
+  color: #fff;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.checkmarkIconWrap {
+  width: 28px;
+  height: 28px;
+  background-color: var(--white);
+  border-radius: 100%;
+  fill: var(--orange);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.benefits-section {
+  background-color: var(--dark-purple);
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 72px;
+}
+
+.benefits-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.benefits-item {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.benefits-icon-wrapper {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 365px;
+  width: 62px;
+  height: 62px;
+  fill: var(--orange);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.benefits-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.benefits-title {
+  font-weight: 600;
+  font-size: 18px;
+}
+.benefits-text {
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 308px;
 }
