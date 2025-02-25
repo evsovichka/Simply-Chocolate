@@ -139,3 +139,70 @@
   color: rgba(255, 255, 255, 0.7);
   max-width: 308px;
 }
+.ingredients-section {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  margin-bottom: 72px;
+}
+.ingredients-section-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 283px;
+}
+.ingredients-section-title-word {
+  color: var(--orange);
+}
+.ingredients-section-text {
+  line-height: 129%;
+  text-align: center;
+}
+.ingredients-list {
+  padding-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.ingredients-item {
+  border-radius: 15px;
+  width: 335px;
+  height: 270px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.ingredients-image {
+  width: 224px;
+  height: 171px;
+  align-self: center;
+}
+
+.ingredients-item:first-child {
+  background-color: var(--orange);
+  color: #fff;
+}
+
+.ingredients-item:nth-child(2n) {
+  border: 1px solid var(--orange);
+  background-color: #fff;
+}
+
+.ingredients-item:nth-child(2n + 3) {
+  background-color: var(--dark-purple);
+  color: #fff;
+}
+
+.ingredients-title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 129%;
+  text-transform: uppercase;
+}
