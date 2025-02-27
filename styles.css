@@ -269,6 +269,10 @@
 
 /* ------How it's made section  ------  */
 .how-made-section {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 .how-made-section-title {
   font-weight: 600;
@@ -277,9 +281,53 @@
   letter-spacing: -0.03em;
   text-transform: uppercase;
   text-align: center;
+  padding-bottom: 12px;
 }
 
-.svg {
-  fill: black;
-  stroke: black;
+.how-made-section-image {
+  width: 335px;
+  height: 500px;
+  background-image: url(./images/how-made-img-mobile.jpg);
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+}
+
+.how-made-section-text-box {
+  border-radius: 15px;
+  padding: 20px 14px;
+  width: 335px;
+  height: 456px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.subtitle-text-box {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 133%;
+}
+.list-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.item-text-box {
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  position: relative;
+  padding-left: 16px;
+}
+
+.item-text-box::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background-color: #4c4c4c;
+  border: 1px solid #eceded;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
