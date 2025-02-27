@@ -273,6 +273,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  margin-bottom: 72px;
 }
 .how-made-section-title {
   font-weight: 600;
@@ -290,6 +291,8 @@
   background-image: url(./images/how-made-img-mobile.jpg);
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 15px;
+  display: flex;
+  justify-content: center;
 }
 
 .how-made-section-text-box {
@@ -315,11 +318,13 @@
 .item-text-box {
   line-height: 129%;
   letter-spacing: -0.02em;
-  position: relative;
-  padding-left: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: baseline;
 }
 
-.item-text-box::before {
+/* .item-text-box::before {
   content: "";
   width: 8px;
   height: 8px;
@@ -330,4 +335,4 @@
   position: absolute;
   left: 0;
   top: 0;
-}
+} */
