@@ -1,5 +1,14 @@
 @import "./base.css";
 
+.section-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -269,7 +278,7 @@
 
 /* ------How it's made section  ------  */
 .how-made-section {
-  padding: 20px;
+  padding: 0 20px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -333,7 +342,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 72px;
-  padding: 20px;
+  padding: 0 20px;
 }
 
 .products-section-title {
@@ -394,7 +403,7 @@
 /* -------top sellers section -----  */
 
 .sellers-section {
-  padding: 20px;
+  padding: 0 20px;
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -437,4 +446,71 @@
   width: 120px;
   height: 41px;
   background-color: var(--orange);
+}
+
+/* -------review section------- */
+
+.review-section {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 0 20px;
+  align-items: center;
+  padding-bottom: 72px;
+}
+
+.review-list {
+  padding-top: 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.review-item {
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 15px;
+  width: 335px;
+  height: 200px;
+  box-shadow: 0 9px 27px 0 rgba(215, 228, 249, 0.25);
+  background: #fff;
+  position: relative;
+}
+.review-section-button {
+  border: 1px solid var(--orange);
+  border-radius: 100px;
+  padding: 12px 28px;
+  width: 165px;
+  height: 41px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.review-item img {
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+}
+.client-name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 133%;
+  text-align: center;
+  padding-bottom: 6px;
+}
+
+.review-text {
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(17, 17, 17, 0.7);
+}
+
+.review-wrapper {
+  position: relative;
+  top: -42px;
+  display: flex;
+  padding: 0 18px;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
 }
