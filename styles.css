@@ -324,22 +324,16 @@
   align-items: baseline;
 }
 
-/* .item-text-box::before {
-  content: "";
-  width: 8px;
-  height: 8px;
-  box-sizing: border-box;
-  border-radius: 50%;
-  background-color: #4c4c4c;
-  border: 1px solid #eceded;
-  position: absolute;
-  left: 0;
-  top: 0;
-} */
-
 /* ------Our Products section */
 
 .products-section {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 72px;
+  padding: 20px;
 }
 
 .products-section-title {
@@ -395,4 +389,52 @@
   background: var(--bіliy);
   font-weight: 600;
   font-size: 14px;
+}
+
+/* -------top sellers section -----  */
+
+.sellers-section {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 72px;
+}
+.sellers-section-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+}
+.sellers-section-text {
+  line-height: 129%;
+  letter-spacing: -0.02em;
+}
+
+.sellers-section img {
+  border-radius: 15px;
+  width: 335px;
+  height: 464px;
+}
+
+.sellers-section div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sellers-section div:last-child {
+  align-items: center;
+}
+.sellers-section-button {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 100px;
+  padding: 12px 28px;
+  width: 120px;
+  height: 41px;
+  background-color: var(--orange);
 }
